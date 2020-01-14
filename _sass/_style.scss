@@ -7,9 +7,22 @@ body {
   padding-top: 3rem;
 }
 
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2.25rem;
+  text-transform: uppercase;
+}
+
 @media (min-width: 992px) {
   body {
-    font-size: 18px;
+    /*font-size: 18px;*/
     padding-top: 0;
     padding-left: 17rem;
   }
