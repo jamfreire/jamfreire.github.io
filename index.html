@@ -16,10 +16,10 @@
     <script src="https://kit.fontawesome.com/6953516f22.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target="#navbarSupportedContent">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top side-navbar">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">J.A.M. Freire</span>
+<body id="page-top" data-spy="scroll" data-target="#mainNav" data-offset="58">
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top side-navbar">
+        <a class="navbar-brand" href="#page-top">
+            <span class="d-block d-lg-none">Jam Freire</span>
             <span class="d-none d-lg-block">
                 <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/jam-freire.jpg" alt="">
             </span>
@@ -31,45 +31,61 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-pills flex-lg-column" role="tablist">
-                <li class="nav-item"><a class="nav-link" href="#page-top">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#page-top">Sobre</a></li>
                 <li class="nav-item"><a class="nav-link" href="#experience">Experiência</a></li>
                 <li class="nav-item"><a class="nav-link" href="#education">Formação</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
                 <li class="nav-item"><a class="nav-link" href="#awards">Prêmios</a></li>
             </ul>
         </div>
+        <ul class="nav d-none d-lg-flex">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://github.com/jamfreire" target="_blank" title="github.com/jamfreire"><i class="fab fa-github fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://www.linkedin.com/in/jamfreire/" target="_blank" title="linkedin.com/in/jamfreire/"><i class="fab fa-linkedin fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="https://instagram.com/jamfreire" target="_blank" title="instagram.com/jamfreire"><i class="fab fa-instagram fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="mailto:jamfreire@gmail.com" target="_blank" title="jamfreire@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
+            </li>
+        </ul>
     </nav>
 
-    <div class="container py-5">
-        <section id="about" class="p-3 p-lg-5">
-            <h1 class="display-4 text-uppercase">José Andersson Mendes Freire</h1>
-            <h2 class="h2 text-uppercase mb-4">Web Designer & Developer</h2>
-            <p class="lead">Graduado em Sistemas de Informação pelo Instituto Federal de Educação, Ciência e Tecnologia de Alagoas (IFAL),
-                trabalhei alguns anos nas áreas de Suporte e Infraestrutura de TI, com atuação nos setores público e
+    <div class="container px-lg-5">
+        <section id="about" class="py-5">
+            <h1 class="h1 text-uppercase text-primary">José Andersson M. Freire</h1>
+            <h2 class="h3 text-uppercase mb-4 font-weight-light">Web Designer & Developer</h2>
+            <p>Graduado em Sistemas de Informação,
+                trabalhei alguns anos na área de Suporte/Infra de TI, com atuação nos setores público e
                 privado. Atualmente sou Web Designer, o que me permite unir o conhecimento das áreas que mais tenho interesse:
-                Design e Computação. Meu principal objetivo é trabalhar em um ambiente criativo e desafiador que permita
+                <strong>Design</strong> e <strong>Computação</strong>. Meu principal objetivo é trabalhar em um ambiente criativo e desafiador que permita
                 aprimorar minhas habilidades e crescer profissionalmente.</p>
         </section>
 
-        <section id="experience" class="p-3 p-lg-5">
+        <section id="experience" class="py-5">
             <h2 class="section-title">Experiência</h2>
             <ul class="list-unstyled">
                 <li class="mb-5 mb-md-5">
                     <h6 class="text-muted">jun/2019 - atualmente</h6>
-                    <h3 class="h4">Analista de Sistemas Pleno</h3>
-                    <h4 class="h6 mb-3">SPASSU Tecnologia/Petrobras</h4>
+                    <h3 class="h4">Analista de Sistemas</h3>
+                    <h4 class="h6 mb-3">SPASSU Tecnologia e Serviços / Petrobras</h4>
+                    <p>Criação de protótipos de alta e baixa fidelidade; implementação de interfaces Web; elaboração de layouts e templates
+                        para sistemas computacionais; análise heurística de interfaces e testes de usabilidade.</p>
                 </li>
                 <li class="mb-5 mb-md-5">
                     <h6 class="text-muted">set/2017 - mai/2019</h6>
                     <h3 class="h4">Web Designer</h3>
                     <h4 class="h6 mb-3">Patrimóvel Imobiliária</h4>
-                    <p>Manutenção de websites, extranet e sistemas corporativos da Patrimóvel. Criação de landing pages para novos
-                        empreendimentos e campanhas de marketing. Criação de banners,e-mail marketing e peças para redes sociais.</p>
+                    <p>Criação e manutenção de websites, extranet e sistemas corporativos da Patrimóvel. Criação de landing pages para novos
+                        empreendimentos e campanhas de marketing; criação de banners, e-mail marketing e peças para redes sociais.</p>
                 </li>
             </ul>
         </section>
 
-        <section id="education" class="p-3 p-lg-5">
+        <section id="education" class="py-5">
             <h2 class="section-title">Formação Acadêmica</h2>
             <ul class="list-unstyled">
                 <li class="mb-5 mb-md-5">
@@ -80,79 +96,73 @@
                 </li>
                 <li class="mb-5 mb-md-5">
                     <h6 class="text-muted">abr/2016 - out/2016 (200 horas)</h6>
-                    <h3 class="h4">Senac RJ</h3 class="h4">
-                    <h4 class="h5">Formação Profissional de Web Designer</h4>
+                    <h3 class="h4">Senac RJ</h3>
+                    <h4 class="h5">Curso Profissionalizante de Web Designer</h4>
                 </li>
             </ul>
         </section>
 
-        <section id="skills" class="p-3 p-lg-5">
+        <section id="skills" class="py-5">
             <h2 class="section-title">Habilidades</h2>
-            <ul class="list-inline">
-                <li class="list-item">
-                    <h3>Ferramentas e Linguagens de Programação</h3>
-                    <ul>
-                        <li>
-                            <i class="fab fa-adobe"></i>
-                            <span class="text-muted">Adobe Creative</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-figma"></i>
-                            <span class="text-muted">Figma</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-invision"></i>
-                            <span class="text-muted">Invision Studio</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-html5"></i>
-                            <span class="text-muted">HTML5</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-css3"></i>
-                            <span class="text-muted">CSS</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-bootstrap"></i>
-                            <span class="text-muted">Bootstrap</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-js"></i>
-                            <span class="text-muted">Javascript</span>
-                        </li>
-                        <li>
-                            <i class="fab fa-js"></i>
-                            <span class="text-muted">jQuery</span></li>
-                        <li><i class="fab fa-angular"></i>
-                            <span class="text-muted">AngularJS</span></li>
-                        <li><i class="fab fa-sass"></i>
-                            <span class="text-muted">Sass</span></li>
-                        <li><i class="fab fa-gulp"></i>
-                            <span class="text-muted">Gulp</span></li>
-                        <li><i class="fab fa-wordpress"></i>
-                            <span class="text-muted">Wordpress</span></li>
-                    </ul>
-                </li c>
-                <li>
-                    <h3>Fluxo de Trabalho</h3>
-                    <ul>
-                        <li>Mobile First</li>
-                        <li>Design Responsivo</li>
-                        <li>Design Sprint</li>
-                        <li>Desenvolvimento Ágil</li>
-                    </ul>
+            <h3 class="h4 font-weight-light mb-4">Ferramentas e Linguagens</h3>
+            <ul class="list-inline skills-list mb-5">
+                <li class="list-inline-item">
+                    <i class="fab fa-adobe" title="Adobe Creative Cloud" data-toggle="tooltip"></i>
                 </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-invision" title="Invision Studio"></i>
+                 </li>
+                <li class="list-inline-item">
+                    <i class="fab fa-figma" title="Figma"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-html5" title="HTML5"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-css3-alt" title="CSS3"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-sass" title="Sass"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-js-square" title="Javascript"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-npm" title="npm"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-angular" title="AngularJS"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-git-square" title="Git"></i>
+                </li>
+                <li  class="list-inline-item">
+                    <i class="fab fa-wordpress" title="Wordpress"></i>
+                </li>
+            </ul>
+
+            <!--<h3 class="h4 font-weight-light mb-3">Fluxo de Trabalho</h3 class="h4 font-weight-light mb-4">-->
+            <ul class="list-unstyled">
+                <li>Design Responsivo (Mobile First)</li>
+                <li>UX/UI Design</li>
+                <li>Adobe Creative Cloud: Photoshop, Illustrator, InDesign e Experience Design (XD)</li>
+                <li>Criação de sites estáticos com Jekyll</li>
+                <li>Controle de versão com GIT</li>
+                <li>Metodologia Ágil</li>
             </ul>
         </section>
 
-        <section id="awards" class="p-3 p-lg-5">
+        <section id="awards" class="py-5">
             <h2 class="section-title">Prêmios, Cursos e Certificações</h2>
-            <ul>
-                <li><a href="https://www.freecodecamp.org/certification/jamfreire/responsive-web-design" target="_blank">Responsive Web
-                        Design Certification na freeCodeCamp.org</a> - ago/2019 (300 horas)</li>
-                <li>3º Lugar Estadual na categoria Web Designer - Prêmio Talentos Senac</li>
-                <li>Curso de Inglês na Casa de Cultura Britânica de Alagoas, FALE/UFAL (fev/2010 - jun/2014)</li>
-                <li>Gestão Estratégica de TI - ITIL na Fundação Bradesco, mai/2013 (42 horas)</li>
+            <ul class="list-unstyled list-awards">
+                <li><i class="fas fa-fw fa-award mr-3"></i cl><a href="https://www.freecodecamp.org/certification/jamfreire/responsive-web-design" target="_blank">Responsive Web
+                        Design Certification na freeCodeCamp.org</a> (ago/2019, 300 horas)</li>
+                <li><i class="fas fa-fw fa-trophy mr-3"></i>3º Lugar Estadual na categoria Web Designer - Prêmio Talentos Senac (nov/2016)</li>
+                <li><i class="fas fa-fw fa-language mr-3"></i>Curso de Inglês na Casa de Cultura Britânica de Alagoas, FALE/UFAL (fev/2010 - jun/2014)</li>
+                <li><i class="fas fa-fw fa-book mr-3"></i>Gestão Estratégica de TI - ITIL na Fundação Bradesco, (mai/2013, 42 horas)</li>
             </ul>
         </section>
     </div>
@@ -161,11 +171,7 @@
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script>
-            $(function() {
-                $('body').scrollspy({ target: '#navbarSupportedContent' });
-            });
-        </script>
+    
 </body>
 
 </html>

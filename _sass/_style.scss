@@ -4,7 +4,7 @@ html {
 
 body {
   position: relative;
-  padding-top: 3rem;
+  padding-top: 58px;
 }
 
 section {
@@ -17,6 +17,28 @@ section {
     font-size: 2.5rem;
     margin-bottom: 2.25rem;
     text-transform: uppercase;
+    color: theme-color('primary');
+  }
+}
+
+p {
+  max-width: 52rem;
+}
+
+.skills-list {
+  .fas, .far, .fab {
+    font-size: 2.5rem;
+    margin-right: .5rem;
+
+    &:hover {
+      color: theme-color('primary');
+    }
+  }
+}
+
+.list-awards {
+  li {
+    margin-bottom: .25rem;
   }
 }
 
