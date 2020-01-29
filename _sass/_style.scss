@@ -12,23 +12,23 @@ section {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  
-  .section-title {
-    font-size: 2.5rem;
-    margin-bottom: 2.25rem;
-    text-transform: uppercase;
-    color: theme-color('primary');
-  }
 }
 
 p {
   max-width: 52rem;
 }
 
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2.25rem;
+  text-transform: uppercase;
+  color: theme-color('primary');
+}
+
 .skills-list {
   .fas, .far, .fab {
     font-size: 2.5rem;
-    margin-right: .5rem;
+    padding: .5rem .5rem .5rem 0;
 
     &:hover {
       color: theme-color('primary');
@@ -38,7 +38,7 @@ p {
 
 .list-awards {
   li {
-    margin-bottom: .25rem;
+    margin-bottom: .5rem;
   }
 }
 
@@ -84,5 +84,11 @@ p {
     .side-navbar .navbar-collapse .navbar-nav {
       flex-direction: column;
       width: 100%;
+    }
+
+    .list-awards {
+      li {
+        margin-bottom: .25rem;
+      }
     }
 }
