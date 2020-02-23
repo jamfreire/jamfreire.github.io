@@ -51,12 +51,6 @@ p {
   }
 }
 
-.list-awards {
-  li {
-    margin-bottom: .5rem;
-  }
-}
-
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -99,11 +93,5 @@ p {
     .side-navbar .navbar-collapse .navbar-nav {
       flex-direction: column;
       width: 100%;
-    }
-
-    .list-awards {
-      li {
-        margin-bottom: .25rem;
-      }
     }
 }
