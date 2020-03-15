@@ -19,6 +19,11 @@ p {
   max-width: 52rem;
 }
 
+::selection { 
+  background-color: theme-color('primary');
+  color: #fff;
+}
+
 .section-title {
   font-size: 2.5rem;
   margin-bottom: 2.25rem;
